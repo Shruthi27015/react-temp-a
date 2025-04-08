@@ -23,7 +23,20 @@ function App() {
       <Link to="app4">App4 | </Link>
       <Link to="app5">App5 | </Link>
       <Link to="app6">App6 | </Link>
-      <Link to="app7">App7</Link>
+      <Link to="app7">App7 | </Link>
+      <Link to="app8">App8 | </Link>
+      <Link to="app9">App9 | </Link>
+      <Link to="app10">App10 | </Link>
+      <Link to="app11">App11 | </Link>
+      <Link to="app12">App12 | </Link>
+      <Link to="app13">App13 | </Link>
+      <Link to="app14">App14 | </Link>
+      <Link to="app15">App15 | </Link>
+      <Link to="app16">App16 | </Link>
+      <Link to="app17">App17 | </Link>
+      <Link to="app18">App18 | </Link>
+      <Link to="app19">App19 | </Link>
+
     </div>
     <hr></hr>
     <div>
@@ -36,6 +49,18 @@ function App() {
         <Route path="app5" element={<App5/>}/>
         <Route path="app6" element={<App6/>}/>
         <Route path="app7" element={<App7/>}/>
+        <Route path="app8" element={<App8/>}/>
+        <Route path="app9" element={<App9s/>}/>
+        <Route path="app10" element={<App10/>}/>
+        <Route path="app11" element={<App11/>}/>
+        <Route path="app12" element={<App12/>}/>
+        <Route path="app13" element={<App13/>}/>
+        <Route path="app14" element={<App14/>}/>
+        <Route path="app15" element={<App15/>}/>
+        <Route path="app16" element={<App16/>}/>
+        <Route path="app17" element={<App17/>}/>
+        <Route path="app18" element={<App18/>}/>
+        <Route path="app19" element={<App19/>}/>
       </Routes>
     </div>
     </BrowserRouter>
